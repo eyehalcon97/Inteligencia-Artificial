@@ -1,0 +1,26 @@
+rojo pequeño semiacido no si si:fresa
+amarillo mediano semiacido no si si:manzana
+rojo mediano semiacido no si si:manzana
+verde mediano semiacido no si si:manzana
+naranja mediano acido no si si:naranja
+verde pequeño acido no no si:kiwi
+amarillo pequeño acido no no si:kiwi
+naranja pequeño acido si no no:mandarina
+amarillo grande acido no si si:piña
+verde grande acido no si si:piña
+verde grande semiacido si si si:mango
+amarillo mediano semiacido si si no:melocoton
+naranja mediano semiacido si si no:melocoton
+verde pequeño dulce no si si:higo
+morado pequeño dulce no si si:higo
+amarillo pequeño dulce si si si:ciruela
+morado pequeño dulce si si si:ciruela
+verde mediano dulce no si si:pera
+amarillo mediano dulce no si si:pera
+amarillo mediano dulce no si si:platano
+marron grande neutro no si si:coco
+verde mediano neutro no si si:aguacate
+marron pequeño neutro no si no:nuez
+rojo pequeño semiacido si no si:cereza
+
+

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+ <!-- DEFOULT -->
+
+<category>
+<pattern>*</pattern>
+<template><random>
+  <li>lo podrias decir de otra manera?</li>
+  <li>no te he comprendido</li>
+  <li>Podrias decirmelo de nuevo?</li>
+</random>
+</template>
+</category>
+
+<!--Parte 0 -->
+<category>
+<pattern>(Como) (puedo) (consigo) superar la parte Practica</pattern>
+<template>Superas la parte Practica si obtienes una calificacion de igual o superior a 5</template>
+
+</category>
+
+<category>
+<pattern>(Como) (se evalua) (evaluas) en la convocatoria ordinaria</pattern>
+<template>Un 50% la parte de teoria y un 50% la parte de practicas</template>
+
+</category>
+
+
+<category>
+<pattern>(Hay) (Existe) (que hacer) examen de practicas en la convocatoria extraordinaria</pattern>
+<template>Hay un examen escrito con contenido teorico y practico</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Que pasa si) (Puedo) no puedo asistir a clase regularmente</pattern>
+<template>Tendras que ir a las sesiones de practicas en las que tendras que defender tu practica</template>
+
+</category>
+
+
+<category>
+<pattern>(Existe) (Hay) nota minima para aprobar</pattern>
+<template>Se necesita una media de 5 o mas para aprobar pudiendo tener en una de las partes como minimo un 3</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Son) (Puedo hacer) las practicas (son) obligatorias</pattern>
+<template>Sera necesario la entrga de practicas para poder aprobar</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Cuanto vale) (Que puntuacion tiene) cada practica con respecto la nota final</pattern>
+<template>Cada practica equivale a una cuarta parte del 90 % de practicas del 50% de la nota final, un 1,125 de la nota final</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Cuanto vale) (Que puntuacion tiene) la participacion con respecto a la nota final</pattern>
+<template>la articipacion equivale a un 10% de la nota de practicas del 50% de la nota final, un 0,5 de la nota final</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Como) (se consiguen) (consigo) puntos por participacion</pattern>
+<template>Los puntos por participacion se consiguen saliendo a la pizarra o resolviendo problemas en clase</template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Son)(Puedo hacer)(Se puede hacer) Los trabajos (son) individuales</pattern>
+<template>Si, los trabajos son individuales</template>
+
+</category>
+
+
+
+
+
+<category>
+<pattern>(Se puede) (Esta permitido) hacer trabajos en grupo</pattern>
+<template>No, no hay trabajos en grupos</template>
+
+</category>
+
+
+
+
+
+<category>
+<pattern>(Tengo que) (Hay que) (entregar) (hacer) los ejercicios de las relaciones de problemas</pattern>
+<template>No, no hay por que entregar los ejercicios de las relaciones de problemas</template>
+
+</category>
+
+
+
+
+
+<category>
+<pattern>Cuanto vale el primer examen de teoria</pattern>
+<template>El primer examen de teoria vale un 50% de la nota de teoria del 50% de la nota final, un 2,5</template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Puedo) (Se puede) recuperar una practica o examen</pattern>
+<template>No se puede recuperar una practica o un examen</template>
+
+</category>
+
+
+
+
+
+<category>
+<pattern>(Que pasa) (Que ocurre) si me copio de otro estudiante</pattern>
+<template>Que se calificara con un 0 la nota del estudiante que se ha copiado y del estudiante que se deje copiar</template>
+
+</category>
+
+
+<category>
+<pattern>(Que pasa) (Que ocurre) si me dejo copiar de otro estudiante</pattern>
+<template>Que se te calificara con un 0 si otro estudiante se copia de ti</template>
+
+</category>
+
+<category>
+<pattern>(Que pasa) (Que ocurre) (Y) si suspendo la convocatoria ordinaria</pattern>
+<template>Tendra una convocatoria extraordinaria para la recuperacion de la asignatura</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Cuanto vale) (Que puntuacion tiene) la practica y la teoria</pattern>
+<template>Un 50% cada una de ellas</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Cual es el) (Que) horario de tutorias del profesor de practicas</pattern>
+<template>Los lunes de 10 a 13:30 y los martes de 10 a 12:30 en la ETSIIT </template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Puedo) (Se puede) aprobar la parte practica de la asignatura si no me presento a una practica</pattern>
+<template>Si si la media de las 4 partes supera el 5</template>
+
+</category>
+
+
+
+
+
+<category>
+<pattern>(Cual es la puntuacion) (Cual es la nota) minima que tengo que obtener en cada parte para hacer media</pattern>
+<template>La nota minima es de un 3</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Que puntuacion) (puedo obtener) (obtengo) en la practica 1 si opto por defender el nivel 3 y no lo supero</pattern>
+<template>La puntua cion del nivel 1, hasta un 6</template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Se puede) (Puedo) entregar la practica 1 sin hacer la tarea relativa al nivel 0</pattern>
+<template>No, para entregar un nivel superior al 0 se ha de hacer este previamente</template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Que puedo) hacer (Que tengo que) hacer si no puedo asistir a la sesion de practicas en la que me corresponde hacer la defensa de mi practica 1</pattern>
+<template>Hablar con el profesor de practicas previamente para solicitar una tutoria donde poder defender la practica</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Dime) (Cuantas) pruebas teoricas (habra) (tendre) a lo largo del curso</pattern>
+<template>Dos pruebas</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Cuanto) (Que) vale la primera prueba teorica</pattern>
+<template>La primera prueba de teoria vale un 50% de la nota de teoria del 50% de la nota final, un 2,5</template>
+
+</category>
+
+
+
+<category>
+<pattern>(En que consiste) (Como va) el examen de ejercicios</pattern>
+<template>En un ejercicio escrito en el que se pondra a prueba los conocimientos practicos del alumno</template>
+
+</category>
+
+
+
+<category>
+<pattern>Que (puedo) (deberia) hacer si no (estoy seguro de) (se si no voy a) poder superar el nivel 3 de la practica 1</pattern>
+<template>Deberia de hacer le nivel 2 para sacar la maxima nota posible</template>
+
+</category>
+
+
+
+<category>
+<pattern>(Puedo programar) (Yo programo) muy bien en C++, (puedo) (podria) hacer la practica 1 en ese lenguaje</pattern>
+<template>No, dado que esta practica 1 se ha propuesto para aprender y desarrollar conocimientos sobre AIML</template>
+
+</category>
+
+
+
+
+<category>
+<pattern>(Me encantan) (Me gustan) los agentes conversacionales y soy un experto en su construccion podira usar un agente conversacional para que vayan en mi lugar a hacer la defensa de practicas</pattern>
+<template>Si, si construyes un agente conversacional que defienda la practica perfectamente en tu lugar y luego haces la defensa de ese agente conversacional</template>
+
+</category>
+
+<!-- Parte 1 -->
+
+<category>
+<pattern>Vamos a jugar a adivinar la fruta</pattern>
+<template>
+<think><set var="numero"><srai>RANDOM 16</srai></set>
+<set name="objetivo"><map name="aleatorio"><get var="numero"/></map></set>
+</think>
+Valeee, yo empiezo, voy a pensar en una fruta,
+</template>
+</category>
+
+<category>
+<pattern>^ (de color) <set>coloresfem</set> </pattern>
+<template>
+<think>
+<set var="col"><star/></set>
+<set var="numero"><srai>FINDITEM <get var="col"/> IN <map name="color"><get name="objetivo"/></map> </srai></set>
+<condition var="numero">
+  <li value="0">
+  <set var="respuesta">No</set></li>
+  <li> <set var="respuesta">Si</set></li>
+</condition>
+</think>
+
+  <get var="respuesta"/></template>
+
+</category>
+
+
+
+
+<category>
+<pattern>^ (de tamanio) <set>tamaniosfem</set> </pattern>
+<template>
+<think>
+<set var="tam"><star/></set>
+<set var="numero"><srai>FINDITEM <get var="tam"/> IN <map name="tamanio"><get name="objetivo"/></map> </srai></set>
+<condition var="numero">
+  <li value="0">
+  <set var="respuesta">No</set></li>
+  <li> <set var="respuesta">Si</set></li>
+</condition>
+</think>
+
+  <get var="respuesta"/></template>
+
+</category>
+
+
+<category>
+<pattern>^ (sabe)(es) (de saber) <set>saboresfem</set> </pattern>
+<template>
+<think>
+<set var="sab"><star/></set>
+<set var="numero"><srai>FINDITEM <get var="sab"/> IN <map name="sabor"><get name="objetivo"/></map> </srai></set>
+<condition var="numero">
+  <li value="0">
+  <set var="respuesta">No</set></li>
+  <li> <set var="respuesta">Si</set></li>
+</condition>
+</think>
+
+  <get var="respuesta"/></template>
+
+</category>
+
+
+<category>
+<pattern>^ vitamina a </pattern>
+<template>
+<think>
+<set var="vita"><map name="vitaminaa"><get name="objetivo"/></map></set>
+</think>
+  <get var="vita"/></template>
+
+</category>
+
+<category>
+<pattern>^ vitamina b </pattern>
+<template>
+<think>
+<set var="vitb"><map name="vitaminab"><get name="objetivo"/></map></set>
+</think>
+  <get var="vitb"/></template>
+
+</category>
+
+
+<category>
+<pattern>^ vitamina c </pattern>
+<template>
+<think>
+<set var="vitc"><map name="vitaminac"><get name="objetivo"/></map></set>
+</think>
+  <get var="vitc"/></template>
+
+</category>
+
+<category>
+<pattern>(es) La fruta es (un)(una)(la)(el) <set>frutas</set> </pattern>
+<template>
+<think>
+  <set var="solucion"><star/></set>
+  </think>
+  <condition var="solucion">
+    <li><value><get name = "objetivo"/></value>Correcto</li>
+    <li>
+      <condition name="objetivo">
+        <li value="unknown">No se de que me estas hablando</li>
+        <li>Nooo, te has equivocado de fruta</li>
+      </condition>
+
+
+       </li>
+  </condition>
+
+</template>
+</category>
+
+
+<category>
+<pattern>La fruta es (un)(una)(la)(el) *</pattern>
+<template>
+  Creo que no existe esa fruta o no sabia que existia.
+</template>
+</category>
+
+<category>
+  <pattern>vamos a jugar a adivinar la fruta pero yo empiezo</pattern>
+  <template>Valeee, piensa una fruta y yo te voy preguntando, avisa cuando tengas pensada la fruta</template>
+
+
+
+</category>
+
+
+<category>
+  <pattern>*
+  </pattern>
+  <that>VALEEE, PIENSA UNA FRUTA Y YO TE VOY PREGUNTANDO, AVISA CUANDO TENGAS PENSADA LA FRUTA</that>
+  <template>
+
+
+
+
+
+
+    <srai>pregunta</srai>
+    </template>
+
+</category>
+
+
+
+
+<category>
+  <pattern>pregunta</pattern>
+  <template>
+
+    <random>
+      <li>
+        <condition name="color">
+          <li value="unknown"><srai>pregunta</srai></li>
+          <li>
+            <condition name="sabor">
+              <li value="unknown"><srai>pregunta</srai></li>
+              <li>
+                <condition name="tamanio">
+                  <li value="unknown"><srai>pregunta</srai></li>
+                  <li>
+                    <condition name="vitaminaa">
+                      <li value="unknown"><srai>pregunta</srai></li>
+                      <li>
+                        <condition name="vitaminab">
+                          <li value="unknown"><srai>pregunta</srai></li>
+                          <li>
+                            <condition name="vitaminac">
+                              <li value="unknown"><srai>pregunta</srai></li>
+                              <li>Ya tengo todos los datos que necesitaba
+                                <srai>Respuesta</srai>
+                              </li>
+                            </condition>
+                            </li>
+                            </condition>
+                          </li>
+                          </condition>
+                        </li>
+                        </condition>
+                      </li>
+                      </condition>
+                    </li>
+                    </condition>
+                  </li>
+
+
+
+      <li>
+        <condition name="color">
+          <li value="unknown">
+            <condition name="colores">
+              <li value="unknown">
+                <think><set name="colores"><srai>ITERATE <readset>colores</readset></srai></set></think></li>
+            </condition>
+            Es de color <get name="colores"/></li>
+            <li><srai>pregunta</srai></li>
+          </condition>
+    </li>
+    <li>
+      <condition name="tamanio">
+        <li value="unknown">
+          <condition name="tamanios">
+            <li value="unknown">
+              <think><set name="tamanios"><srai>ITERATE <readset>tamanios</readset></srai></set></think></li>
+          </condition>
+          Es de tamanio <get name="tamanios"/></li>
+          <li><srai>pregunta</srai></li>
+        </condition>
+  </li>
+  <li>
+    <condition name="sabor">
+      <li value="unknown">
+        <condition name="sabores">
+          <li value="unknown">
+            <think><set name="sabores"><srai>ITERATE <readset>sabores</readset></srai></set></think></li>
+        </condition>
+        Tiene sabor <get name="sabores"/></li>
+        <li><srai>pregunta</srai></li>
+      </condition>
+</li>
+
+<li>
+  <condition name="vitaminaa">
+    <li value="unknown">
+
+      Tiene alto contenido de vitamina a</li>
+      <li><srai>pregunta</srai></li>
+    </condition>
+</li>
+
+<li>
+  <condition name="vitaminab">
+    <li value="unknown">
+
+      Tiene alto contenido de vitamina b</li>
+      <li><srai>pregunta</srai></li>
+    </condition>
+</li>
+
+<li>
+  <condition name="vitaminac">
+    <li value="unknown">
+
+      Tiene alto contenido de vitamina c</li>
+      <li><srai>pregunta</srai></li>
+    </condition>
+</li>
+
+  </random>
+
+
+  </template>
+</category>
+
+
+<category>
+  <pattern>* (,)(lo es)(es)
+
+  </pattern>
+  <that>^ ES DE COLOR *</that>
+  <template><think>
+    <set name="coloracertar"><star/></set>
+  </think>
+  <condition name="coloracertar">
+    <li value="no">
+      <think><set name="colores"><srai>NEXT</srai></set></think>
+      es de color <get name="colores"/>
+
+    </li>
+    <li value="si">Valee, ya se el color
+    <think><set name="color"><get name="colores"/></set></think>
+    <srai>pregunta</srai>
+  </li>
+  </condition>
+  </template>
+
+</category>
+
+
+<category>
+  <pattern>* (,)(lo es)(es)
+  </pattern>
+  <that>^ ES DE TAMANIO *</that>
+  <template><think>
+    <set name="tamacertar"><star/></set>
+  </think>
+  <condition name="tamacertar">
+    <li value="no">
+      <think><set name="tamanios"><srai>NEXT</srai></set></think>
+      es de tamanio <get name="tamanios"/>
+
+    </li>
+    <li value="si">Valee, ya se el tamanio
+    <think><set name="tamanio"><get name="tamanios"/></set></think>
+    <srai>pregunta</srai>
+  </li>
+  </condition>
+  </template>
+
+</category>
+
+<category>
+  <pattern>* (,)(lo es)(lo tiene)(la tiene)
+  </pattern>
+  <that>^ TIENE SABOR *</that>
+  <template><think>
+    <set name="sabacertar"><star/></set>
+  </think>
+  <condition name="sabacertar">
+    <li value="no">
+      <think><set name="sabores"><srai>NEXT</srai></set></think>
+      tiene sabor <get name="sabores"/>
+
+    </li>
+    <li value="si">Valee, ya se el sabor
+    <think><set name="sabor"><get name="sabores"/></set></think>
+    <srai>pregunta</srai>
+  </li>
+  </condition>
+  </template>
+
+</category>
+
+<category>
+  <pattern>(tiene)* (,)(lo es) (lo tiene) (tiene)
+  </pattern>
+  <that>^ TIENE ALTO CONTENIDO DE VITAMINA A</that>
+  <template><think>
+
+    <set name="vitaminaa"><star/></set>
+  </think>
+      valeee, lo apunto
+  <srai>pregunta</srai>
+  </template>
+
+
+</category>
+<category>
+  <pattern>(tiene)* (,)(lo es) (lo tiene) (tiene)
+  </pattern>
+  <that>^ TIENE ALTO CONTENIDO DE VITAMINA B</that>
+  <template><think>
+
+    <set name="vitaminab"><star/></set>
+  </think>
+      valeee, lo apunto
+  <srai>pregunta</srai>
+  </template>
+
+
+</category>
+<category>
+  <pattern>(tiene)* (,)(lo es) (lo tiene) (tiene)
+  </pattern>
+  <that>^ TIENE ALTO CONTENIDO DE VITAMINA C</that>
+  <template><think>
+
+    <set name="vitaminac"><star/></set>
+  </think>
+      valeee, lo apunto
+  <srai>pregunta</srai>
+  </template>
+
+
+</category>
+
+
+
+<category>
+<pattern>RESPUESTA</pattern>
+
+<template><think>
+  <set name="respuesta"><get name="color"/> <get name="tamanio"/> <get name="sabor"/> <get name="vitaminaa"/> <get name="vitaminab"/> <get name="vitaminac"/></set>
+</think>
+  El nombre de la fruta que tu estas pensando es <map name="respuestas"><get name="respuesta"/></map>
+</template>
+</category>
+
+
+</aiml>

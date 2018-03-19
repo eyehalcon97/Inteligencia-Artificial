@@ -1,0 +1,10 @@
+rojo
+roja
+amarillo
+amarilla
+verde
+morado
+morada
+naranja
+marron
+
